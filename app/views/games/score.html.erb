@@ -10,4 +10,6 @@
   <p>Sorry but <%= @word %> can't be built out of <% @letters.join(", ") %></p>
 <% end %>
 
+<p>Your score: <%= @score %></p>
+
 <%= link_to "Play again", new_path %>
